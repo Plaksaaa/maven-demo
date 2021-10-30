@@ -1,0 +1,3 @@
+com/plaxa/service/dto/UserDto.class
+com/plaxa/service/service/UserService.class
+com/plaxa/service/AppRunner.class
