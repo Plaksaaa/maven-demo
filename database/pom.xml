@@ -4,7 +4,7 @@
     <parent>
         <artifactId>maven-demo</artifactId>
         <groupId>org.example</groupId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>database</artifactId>
@@ -13,5 +13,26 @@
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.example</groupId>
+                <artifactId>hello-plugin</artifactId>
+                <version>1.0.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>hello</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <message>Message from config!!</message>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -3,7 +3,7 @@
     <parent>
         <artifactId>maven-demo</artifactId>
         <groupId>org.example</groupId>
-        <version>1.0.1</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>service</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>

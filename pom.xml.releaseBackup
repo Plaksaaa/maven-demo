@@ -4,14 +4,13 @@
 
     <groupId>org.example</groupId>
     <artifactId>maven-demo</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>database</module>
         <module>service</module>
         <module>web</module>
-        <module>hello-plugin</module>
     </modules>
 
     <name>first-maven</name>
@@ -20,7 +19,7 @@
         <connection>scm:git:git@github.com:Plaksaaa/maven-demo.git</connection>
         <developerConnection>scm:git:git@github.com:Plaksaaa/maven-demo.git</developerConnection>
         <url>https://github.com/Plaksaaa/maven-demo.git</url>
-      <tag>maven-demo-1.0.1</tag>
+      <tag>maven-demo-1.0.0</tag>
   </scm>
 
     <properties>
